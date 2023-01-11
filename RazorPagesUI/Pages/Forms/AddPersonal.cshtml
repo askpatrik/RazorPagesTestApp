@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPagesUI.Pages.Forms.AddPersonalModel
+@{
+	ViewData["Title"] = "AddPersonal";
+}
+<h1>Add Personal</h1>
+<form method="post">
+	<input type="text" asp-for="Personal.Name" placeholder="Name" />
+	<input type="text" asp-for="Personal.Height" placeholder="Height" />
+	<input type="text" asp-for="Personal.Weight" placeholder="Weight" />
+	<button type="submit">Submit</button>
+</form>
+
